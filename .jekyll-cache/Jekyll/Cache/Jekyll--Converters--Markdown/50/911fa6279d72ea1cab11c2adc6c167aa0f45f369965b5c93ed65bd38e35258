@@ -1,0 +1,22 @@
+I"�	<h3 id="program-flow">Program Flow</h3>
+
+<p>Below is a flowchart for the main operations for ConFlo.</p>
+
+<p>Each argument is based on the C-W-D model. (Claim-Warrant-Data)
+Each argument has one claim and should contain no more than three warrants.</p>
+
+<p>“Checks” are when one player wants to point out the fallacies behind the warrants and request the opposition to refine their arguments. They can also request the other party to clarify the reasoning behind the warrants. A check will make an API call to GPT-3 to confirm whether a logical fallacy has been commited.</p>
+
+<p><img src="/assets/images/blog2/ConFloChart.png" width="500" /></p>
+
+<h3 id="cross-examination">Cross Examination</h3>
+
+<p>Cross Examination begins after the arguments have been refined and both parties are happy with their own and oppositions’ arguments. The Cross Examination begins with the Negative Rebuttal, which should choose the strongest warrant of the Affirmative Constructive to attack. The purpose of the cross-examination is establish possible causation/relationships between the warrants of both sides. Here’s a rough example of a cross examination of for and against arguments of why dogs make good pets:</p>
+
+<p><img src="/assets/images/blog2/goodpets.png" width="900" /></p>
+
+<p>The strongest warrant for the Negative Constructive is that dogs are dangerous, but this idea is compatible with the first two warrants of the Affirmative Constructive.
+One can say that a dog is dangerous when it wants to protect its owner, and it wants to protect its owner becuase it is loyal to him. 
+Here, we have established a relationship between the first two warrants of the AC and the first warrant of the NC. The negative side then argues that dogs are not always defensive and that they can also be the aggressors, this is apparent due to the data of random dog attacks. The affirmative can then rebut that point by saying that the fault may lie with the owner not having properly trained the dog, he may also present some data to back up that warrant. 
+A new argument was generated in the process, which is the agression of the dog can be attributed to proper training but not the dog itself. The dialectical synthesis to resolve this point may be to argue for better training for dog owners as well as their dogs. Now we can cross off warrant 1 and 2 for the AC and warrant 1 for the NC as we have established the relationship and resolved it by making a new synthesis - S1: dog owners should be better trained.</p>
+:ET
