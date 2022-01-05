@@ -1,0 +1,28 @@
+I"<h2 id="codex-invite">Codex Invite</h2>
+<p>Got invited to try out Codex today! Looks pretty sweet. Can’t wait.
+<img src="/assets/images/blog3/codexinvite.png" width="500" /></p>
+
+<h2 id="testing-gpt-3">Testing GPT-3</h2>
+<p>Today I was playing around with GPT-3(specifically davinci-instruct). I find that it’s plenty capable of understanding the context of a conversation and can detect when the context changes. This can be helpful for identifying parallel conversations.</p>
+
+<p>It can also detect causal links between seemingly contradictory statements but it took a lot of refinement of asking the right questions in order to get the desired answers.</p>
+
+<p>The goal is for GPT-3 to see the link between the two statements:
+(1) Dogs are loyal.
+(2) Dogs are dangerous.</p>
+
+<p>The synthesis of these two statements requires introducing a third idea, which is that dogs want to protect their owners due to their loyalty; which causes them to be dangerous.</p>
+
+<h3 id="fail-1">Fail #1:</h3>
+<p><img src="/assets/images/blog3/firstfail.png" width="1000" /></p>
+
+<p>GPT-3 seems to fail to recognize there’s a connection between dogs being loyal and dangerous. But it does rezognize that you can reconcile the two statements.</p>
+
+<h3 id="fail-2">Fail #2:</h3>
+<p><img src="/assets/images/blog3/fail2.png" width="1000" /></p>
+
+<p>GPT-3 is giving contradicting answers to Fail #1. And then it contradicted itself again at the second question. At the last question, it attributed loyal to “good” and dangerous to “bad” and said that a dog cannot inherently be both “good” and “bad”. You can see that I got a little bit pissed in the middle there and started arguing with it a bit.</p>
+
+<h3 id="bingo-1">Bingo #1</h3>
+<p><img src="/assets/images/blog3/bingo1.png" width="1000" /></p>
+:ET
