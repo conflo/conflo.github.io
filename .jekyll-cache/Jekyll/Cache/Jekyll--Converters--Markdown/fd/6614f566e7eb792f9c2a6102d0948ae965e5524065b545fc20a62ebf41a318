@@ -1,0 +1,39 @@
+I"<h3 id="codex-is-awesome">Codex is AWESOME</h3>
+
+<p>I didn’t feel like getting into fine-tuning today so I played around with Codex instead. 
+So glad I did!!
+I used plain English to tell codex to build me this “app”.</p>
+
+<p><img src="/assets/images/blog6/sampleApp.PNG" height="300" /></p>
+
+<p>The following are the  exact instructions I gave it.</p>
+
+<p>1.) “create a text field 500px x 300px”<br />
+2.) “create a small input field below(the text field)”<br />
+3.) “create a button”
+4.) “create a var called key”(in which I stored the API key, don’t think about stealing it, I rotate it often)
+5.) “when the button is pressed, call the openai api with the key as api key and the text from inputField as prompt. return the response and append it to the output box.”
+6.) “create a button called instruct”
+7.) “create a button called delete, when clicked, clear all the text in the output box.”
+8.) “when instruct is clicked, it should call the openai api at the davinci-instruct-beta-v3 engine. output token should be limited to 120. use the text in the inputField as the prompt and key as the api key.”</p>
+
+<p>8 English sentences to build an app. Amazing.</p>
+
+<p>I then exported it to JSFiddle.</p>
+
+<p><img src="/assets/images/blog6/jsFiddle.PNG" height="300" /></p>
+
+<p>Then I copied the html and pasted it into a file then started a python web server.</p>
+
+<p><img src="/assets/images/blog6/pythonServer.PNG" height="300" /></p>
+
+<p>Voila!</p>
+
+<p><img src="/assets/images/blog6/sampleAppAlone.PNG" height="300" /></p>
+
+<p>Now all to do is to fine-tune the engine to make it give more “professional” advice.
+You can always convert an excel spreadsheet to JSON and feed it to the engine.</p>
+
+<h2 id="we-live-in-the-goddam-future">WE LIVE IN THE GODDAM FUTURE!!</h2>
+
+:ET
