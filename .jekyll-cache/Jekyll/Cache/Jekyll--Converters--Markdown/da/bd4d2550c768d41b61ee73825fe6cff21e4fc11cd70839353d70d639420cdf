@@ -1,0 +1,52 @@
+I"�<h3 id="accidental-wise-man">Accidental Wise Man</h3>
+
+<p>I took Josh Bachynski’s advice and changed up the prompts a little bit to see if I could get GPT to do better dialectics. His advice was as follows:</p>
+
+<p>1.) Lose the coding for statements - this can confuse GPT as any additional information or unnecessary formatting can throw it off in giving desired answers, if I don’t want structure, don’t give it any to look for<br />
+2.) Switch to the Q&amp;A format<br />
+3.) Give really good examples<br />
+4.) Keep it simple and keep temperature at 0</p>
+
+<p>I gave it two examples with one worded answers and what resulted was a old wise man type answering bot.
+<img src="/assets/images/blog7/wiseman.PNG" height="500" /></p>
+
+<p>All the answers were very sensible and a teeny bit cryptic and would probably require the interpreter to ponder a little bit to see how it connects the two seemingly conflicting statements. Highlight being:</p>
+
+<p>Q: How can Bing compete with Google?<br />
+A: Differentiation.</p>
+
+<p>LOL! It’s like GPT knows Bing cannot compete on a level playing field.</p>
+
+<p>Also, it’s pretty awesome that Josh took the time to answer my question with such a long response. And he’s a Ted talker too! I can’t say I’m not a little bit star-struck.</p>
+
+<h3 id="reflections-on-cal-newports-deepwork">Reflections on Cal Newport’s Deepwork</h3>
+
+<p>Newport’s book, “Deep Work” had inspired me to start time-blocking my day to fit in at least 3 x 1.5 hour sessions of deepwork every weekday.</p>
+
+<p><img src="/assets/images/blog7/newport.JPG" height="300" /></p>
+
+<p>The concept of Produtive Meidtation is an especially appealing idea to me since my day work consists of espeically mundance, repetitive tasks. I should use the time well to mull over ideas in the back of my mind. The 4DX framework is also an interesting one.</p>
+
+<p>1.) <strong>Focus on the wildly important</strong> - This makes me question how I should prioritize my tasks and ignore the less important tasks for now. In the context of ConFlo, I noticed that I spent way more time messing around in the GPT playground because I was convicned that I had to get a full picture of the capabilities of GPT before I could design around it. This may be a flawed approach and I may just have to face the fact that it’s just more fun to probe GPT instead of getting down to doing the hard stuff like actually prototyping the app. So for now, I should put my mind to that.</p>
+
+<p>2.) <strong>Act on lead measures</strong> - Lead measure in terms of deepwork is just time spent doing deepwork. Lag measure has to do with how my work or focus has improved as a result of lead measure. Focusing on lead measure is reasonant with the Taoist idea of detached actions, which I like. Do the work and let the results follow.</p>
+
+<p>3.) <strong>Keep a scoreboard</strong> - I should probably log my time spent on deepwork and rate the intensity and quality of my attention while in that state. So I would probably need some time logger and ample honesty to assess whether I worked deeply.</p>
+
+<p>4.) <strong>Accoutability</strong> - I should introduce weekly plans and reviews as well as monthly plans and reviews to assess the progress of my work and identify possible bottlenecks and possiblitlies for further optimization and improvement.</p>
+
+<p>For the rest of the week, I should focus on prototyping based on my program flowchart using Codex. I should have a clear goal of what the output will look like and what kind of output to expect after I feed it to GPT. For right now, I want to be able to press a button to feed the existing conversation as a prompt and then have GPT:</p>
+
+<p>1.) Summarize the conversation
+2.) Identify the topic being discussed 
+3.) Identify which player is for or against the topic
+4.) Identify each player’s claims 
+5.) Identify 3 main warrants from each player’s posisiton on the topic</p>
+
+<p>The program itself should:
+1.) Give each party time to formulate their arguments
+2.) Control the “phases” (Contruction, rebuttal, cross-ex…etc)
+3.) Output a structured A-B conversation.</p>
+
+<p>I may need to look into finetuning if I don’t want to send a long-winded prompt every time I call the API with a conversation.</p>
+:ET
