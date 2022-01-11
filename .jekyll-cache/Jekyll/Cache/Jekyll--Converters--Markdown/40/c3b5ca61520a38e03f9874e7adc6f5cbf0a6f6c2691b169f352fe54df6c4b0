@@ -1,0 +1,19 @@
+I"�	<h3 id="what-to-do-next">What to do next?</h3>
+<p>I have been mulling over the next steps of prototyping ConFlo. The program basically takes a conversation/debate and spits out a bunch of information and statistics. Here are some things the program needs GPT to be able to do:</p>
+
+<p>1.) Summarize each argument - Listing the warrants/reasonings for the claim and the evidence backing the warrants<br />
+2.) Fallacy classification<br />
+3.) Identify points of contention - Are the players arguing over definitons? Presuppositions? Who’s denying fundamental axioms?<br />
+4.) Identify burden of proof - Who is making a positive statement? That person should provide the evidence for his claims.<br />
+5.) Identify claim types and legitimacy - claims can only be controversial if you can argue its: Definiton or factual status, its cause and effect, its claims about solutions or policies (what we ought to do since…), and about values. Claims based on assertion posed as an axiom(an untestable, unverifiable hypothese or statement) are not even worth arguing about.<br />
+6.) Dialectics on conflicting claims\</p>
+
+<p>This list is by no means exhaustive. However, for each one of these features, I may have to fine tune a model just to accomplish the task with high fidelity. That means I need to fine tune at least a few “engines” and would require crap ton of collecting and scrubbing the data.</p>
+
+<p>There are currently two approaches to do this:</p>
+
+<p>1.) Fine tune a bunch of models to handle all these tasks, then build the program with all said features on top of these capabilities (which is a waterfall approach because I already assumed what the end product looks like and what features it should have) OR:<br />
+2.) Use an iterative approach, build an MVP with more restrictive formatting (maybe a Q and A format for each side) and crowdsource the data collection. The program itself basically also works as a data formatter which outputs readily digestible data to train the models. Each fine tuned model can also be a modular, stand-alone product that is part of a whole, for example, a model that is good at doing dialetics is itself valuable outside of a debate context (like the accidental wise man, it’s not bad as a fun answer bot)</p>
+
+<p>It’s quite obvious which approach is better. Iterative and modular design always wins out, and it also saves me time from having to collect crap tons of data and scrubbing them to make them digestible.</p>
+:ET
