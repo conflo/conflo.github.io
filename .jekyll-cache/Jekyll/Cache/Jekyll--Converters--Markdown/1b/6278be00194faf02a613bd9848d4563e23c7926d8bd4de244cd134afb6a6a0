@@ -1,0 +1,24 @@
+I"k<h3 id="prototype">Prototype</h3>
+<p>Managed to make a semi-serviceable prototype using Codex.</p>
+
+<p><img src="/assets/images/blog9/Capture.PNG" height="500" /></p>
+
+<p>One problem with Codex sandbox is that the window object doesn’t work, so I cannot do pop-up prompts for inputs. Eventually, I will have to move on to some kinda frontend framework for my MVP anyways, so I’m back to Vue.</p>
+
+<p>Since ConFlo is mainly just text input and output, retrieving conversations and calling the openai API here and there, it’s not very hardware reliant, I wouldn’t need to develop natively. Besides, I suspect for intense conversations that possibly has a time limit, people would prefer to have a proper keyboard. It’s a bonus if mobile users want to use the PWA. Apparently quest 2 can do PWAs in firefox reality and the oculus browser, that’s pretty interesting too.</p>
+
+<p>I will keep using Codex to help me test JS stuff though.</p>
+
+<p>Vue is good for MVP prototyping and I kinda know it so it’s a no brainer.</p>
+
+<p>For storing conversations I will probably be using firebase or just some local file somewhere, at least for the prototype.</p>
+
+<p>MVP must haves:</p>
+
+<p>1.) Player UI(prompt, hardcoded instructions + GPT output(uncle?), changing input boxes according to debate stages, output box)<br />
+2.) Both players connected to the same session and having a conversation concurrently<br />
+3.) Prompts for formatting the conversation</p>
+
+<p>Basically I will just need to find the most simple chat app tutorial, build it and repurpose some stuff for the formatting. Shouldn’t take more than a week… I hope.</p>
+
+:ET
