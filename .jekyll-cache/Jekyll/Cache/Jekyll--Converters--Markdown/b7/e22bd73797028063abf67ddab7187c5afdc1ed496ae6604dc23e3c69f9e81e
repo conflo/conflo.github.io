@@ -1,0 +1,16 @@
+I"�<h3 id="composition-api">Composition API</h3>
+
+<p>1.) Composition API helps organize data, methods, watchers and computed by logic rather than options. It also aids in reusing logic and data and solves some of the problems that Vuex is supposed to solve.<br />
+2.) Computed properties perform operations on dependent reactive properties. You can do the same thing with a method but for methods, the result isn’t cached and doesn’t react of the data it’s dependent on. Let’s say we have a “word” variable and “reverseword” computed property, whenever “word” changes, “reverseword” also changes and is cached, that means it’s dependent and reactive to “word”. <br />
+3.) A general rule of thumb is to use {ref} for primitives and {reactive} for objects.<br />
+4.) onMounted() is a hook called every time a compoenent is changed or updated.<br />
+5.) Nothing is available to the DOM if they are not returned in the setup()<br />
+6.) Use underscore in setup like this setup(_, context), if I don’t wish to pass in props<br />
+7.) You cannot use this to access data or emit stuff, you need to pass in context into setup(). Also, you cannot access the value of ref() directly, instead, you need to use ref.value, unless in the DOM, the value is unwrapped automatically in the DOM.\</p>
+
+<p>Tomorrow, I will learn more about how to reuse logic by seperating them into seperate useLogic components, export them and import them into whichever comopnent needs the data and logic.</p>
+
+<p><a href="https://learnvue.co/2020/03/extract-and-reuse-logic-in-the-vue-composition-api/#extracting-logic">learn to reuse logic</a></p>
+
+<p>I will rewrite the wise-man using the Composition API. And then I will do the auth tutorial.</p>
+:ET

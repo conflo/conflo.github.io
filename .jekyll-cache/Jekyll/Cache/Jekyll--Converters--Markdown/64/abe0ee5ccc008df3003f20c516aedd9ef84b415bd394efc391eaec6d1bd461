@@ -1,0 +1,11 @@
+I"�<h3 id="from-vue-to-vuex">From vue to vuex</h3>
+<p>It wasn’t hard to convert the wise-man app to vuex, a few things I got hung up on</p>
+
+<p>1.) I couldn’t access the state variables from actions, turned out I couldn’t just use this.$store.state.var, instead, I needed to pass in context to actions as a parameter then do either context.state.var or use getters like context.getters.getVar<br />
+2.) Turns out Vuex store doesn’t have a created() hook so I couldn’t initialize the openAI wrapper<br />
+3.) I should only mutate variables using mutations<br />
+4.) spreading mapMutations/mapGetters…etc is only for using them in the DOM, otherwise, I can call this.$store.commit/dispatch(payload) in component script<br />
+5.) I think I should only use getters, there’s a complicated reason for it but it’s quite nuanced according to the documentation.<br />
+6.) Apparently, in v-for, using index as key can be problematic if the array is mutable, e.g if you delete an item, the items behind will get assigned new index numbers, using a uuid for key is much better<br />
+7.) Html class attribute can be dynamic by passing in logical evaluation, this is useful in style</p>
+:ET
