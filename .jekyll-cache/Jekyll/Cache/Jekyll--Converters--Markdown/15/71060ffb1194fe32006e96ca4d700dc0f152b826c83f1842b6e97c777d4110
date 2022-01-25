@@ -1,0 +1,10 @@
+I"<h3 id="conflo-mvp-update-1">ConFlo MVP Update #1</h3>
+
+<p>I had started prototyping the one-player mode for ConFlo, I had decided on a card game type of layout.</p>
+
+<p><img src="assets/images/blog16/cards.PNG" height="500" /></p>
+
+<p>Each card is clickable and will expand into a v-dialog where you can view the warrants for each claim and any relevant evidence. I should use expansion panels for warrant details and nest more panels for any relevant data.</p>
+
+<p><img src="assets/images/blog16/cardsClicked.PNG" height="500" /></p>
+:ET
